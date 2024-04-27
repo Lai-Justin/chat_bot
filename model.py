@@ -10,6 +10,7 @@ class NeuralNetwork(nn.Module):
         self.relu = nn.ReLU()
         
     def forward(self, x):
+        x = torch.tensor(x)  # Convert input to PyTorch tensor
         out = self.l1(x)
         out = self.relu(out)
         out = self.l2(out)
