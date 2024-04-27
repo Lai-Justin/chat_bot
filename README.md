@@ -12,7 +12,7 @@ Install the dependencies
 ```bash
 pip install pytorch
 pip install nltk
-pipinstall flask
+pip install flask
 ```
 
 Run server
