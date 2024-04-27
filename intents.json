@@ -39,8 +39,24 @@
         "What do you sell?"
       ],
       "responses": [
-        "We sell coffee and tea",
-        "We have coffee and tea"
+        "We sell Japanese Green Tea, also known as Matcha",
+        "We have Japanese Green Tea, also known as Matcha"
+      ]
+    },
+    {
+      "tag": "matcha",
+      "patterns": [
+        "Which type of teas do you have?",
+        "What kind of tea do you sell?",
+        "What teas do you have?",
+        "What kind of matcha do you have?",
+        "What matcha do you have?"
+
+      ],
+      "responses": [
+        "We sell two types of matcha, Genmatcha and Hojicha",
+        "We have two types of matcha, Genmatcha and Hojicha",
+        "We sell Genmatcha and Hojicha"
       ]
     },
     {
@@ -52,7 +68,7 @@
         "Are you cash only?"
       ],
       "responses": [
-        "We accept VISA, Mastercard and Paypal",
+        "We accept VISA, Mastercard, American Express and Paypal",
         "We accept most major credit cards, and Paypal"
       ]
     },
@@ -66,18 +82,6 @@
       "responses": [
         "Delivery takes 2-4 days",
         "Shipping takes 2-4 days"
-      ]
-    },
-    {
-      "tag": "funny",
-      "patterns": [
-        "Tell me a joke!",
-        "Tell me something funny!",
-        "Do you know a joke?"
-      ],
-      "responses": [
-        "Why did the hipster burn his mouth? He drank the coffee before it was cool.",
-        "What did the buffalo say when his son left for college? Bison."
       ]
     }
   ]
